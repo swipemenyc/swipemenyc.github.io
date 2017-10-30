@@ -1,0 +1,212 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.gradient {
+  background: #ECE9E6;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(#FFFFFF, #ECE9E6);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(#FFFFFF, #ECE9E6);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* can be treated like a fallback */
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.mta-blue {
+  background-color: #005daa;
+}
+
+.mta-gold {
+  background-color: #ffbe3d;
+}
+
+.lightgrey-text {
+  color: lightgrey !important;
+}
+
+.mta-blue-text {
+  color: #005daa;
+}
+
+.mta-gold-text {
+  color: #ffbe3d;
+}
+
+.section-padding {
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+
+.row {
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.logo {
+  width: 72px;
+  height: 72px;
+  margin: 35px;
+  padding: 0px;
+}
+
+#card-hand {
+  height: 100vh;
+  margin-bottom: -7vh;
+}
+
+#intro-text h1 {
+  font-weight: 900;
+  line-height: 88%;
+}
+
+#comic {
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+}
+
+#comic-intro-text h3 {
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+#comic-strip .row {
+  margin-bottom: 0px;
+}
+
+.comic-text {
+  height: 40vh;
+}
+
+.comic-image {
+  width: 90%;
+  height: 90%;
+}
+
+.quotation {
+  width: 64px;
+  height: 64px;
+}
+
+.quotation-open {
+  margin-left: -64px;
+}
+
+.quotation-closed {
+  position: absolute;
+}
+
+.legal-text-wrapper {
+  letter-spacing: 5px;
+}
+
+.legal-text1 {
+  font-style: italic;
+}
+
+.legal-text2 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.full-legal-terms {
+  margin-top: 5vh;
+  font-variant: small-caps;
+  letter-spacing: 3px;
+}
+
+.legal-anchor {
+  color: white;
+}
+
+.legal-anchor:hover {
+  color: #e9e9e9;
+}
+
+#heart {
+  margin-top: 5vh;
+  width: 48px;
+  height: 48px;
+}
+
+.fb-like {
+  top: -6px;
+}
+
+.page-footer {
+  padding-top: 40px;
+}
+
+.copyright {
+  padding-bottom: 40px;
+  margin-bottom: 0px;
+}
+
+.page-footer .logo {
+  margin: 0px;
+}
+
+#share-wrapper {
+  /* center with the logo */
+  padding-top: 19px !important;
+}
+
+@media only screen and (min-width: 960px) {
+  .flow-text {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #intro-text h1 {
+    font-size: 3.5rem;
+  }
+  .comic-text {
+    height: 35vh;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #intro-text h1 {
+    font-size: 2rem;
+  }
+  #card-hand {
+    height: 50vh;
+    margin-bottom: 0vh;
+  }
+  #comic-intro-text h3 {
+    font-size: 1.7rem;
+  }
+  .comic-text {
+    height: 20vh;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .copyright {
+    font-size: .9rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #intro-text h1 {
+    font-size: 1.5rem;
+  }
+  #card-hand {
+    height: 35vh;
+  }
+  #comic-intro-text h3 {
+    font-size: 1.4rem;
+  }
+  .copyright {
+    font-size: .7rem;
+  }
+}
