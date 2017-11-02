@@ -151,7 +151,7 @@ body {
 }
 
 .lightgrey-text {
-  color: lightgrey !important;
+  color: lightgrey;
 }
 
 .mta-blue-text {
@@ -172,10 +172,14 @@ body {
   margin-bottom: 0px;
 }
 
+a:hover {
+  /* grey-text */
+  color: #9e9e9e;
+}
+
 .social-icon {
   width: 24px;
   height: 24px;
-  margin: 5px;
   background-color: white;
   display: inline-block;
   mask-size: cover;
@@ -183,8 +187,8 @@ body {
 }
 
 .social-icon:hover {
-  /* hover mta-gold */
-  background-color: #ffbe3d;
+  /* hover grey-text */
+  background-color: #9e9e9e;
 }
 
 .github-icon {
@@ -192,21 +196,15 @@ body {
   mask-image: url("../img/github-logo.png");
 }
 
-nav {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-
 .logo {
-  width: 72px;
-  height: 72px;
-  margin: 35px;
-  padding: 0px;
+  width: 64px;
+  height: 64px;
+  margin: 35px 35px;
 }
 
 #card-hand {
-  height: 100vh;
-  margin-bottom: -14vh;
+  height: 50%;
+  width: 50vw;
 }
 
 #intro-text h1 {
@@ -226,10 +224,6 @@ nav {
 
 #comic-strip .row {
   margin-bottom: 0px;
-}
-
-.comic-text {
-  height: 40vh;
 }
 
 .comic-image {
@@ -273,18 +267,10 @@ nav {
   color: white;
 }
 
-.legal-anchor:hover {
-  color: #e9e9e9;
-}
-
 #heart {
   margin-top: 5vh;
   width: 48px;
   height: 48px;
-}
-
-.fb-like {
-  top: -6px;
 }
 
 .page-footer {
@@ -305,9 +291,14 @@ nav {
   padding-top: 19px !important;
 }
 
-.author-link {
-  padding-right: 3px;
-  padding-left: 3px;
+.share-link {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#github-wrapper {
+  height: 24px;
+  width: 24px;
 }
 
 @media only screen and (min-width: 960px) {
@@ -333,9 +324,6 @@ nav {
   #intro-text h1 {
     font-size: 2rem;
   }
-  #card-hand {
-    height: 50vh;
-  }
   #comic-intro-text h3 {
     font-size: 1.7rem;
   }
@@ -345,6 +333,11 @@ nav {
 }
 
 @media only screen and (max-width: 375px) {
+  .logo {
+    width: 48px;
+    height: 48px;
+    margin: 17px 17px;
+  }
   .copyright {
     font-size: .9rem;
   }
@@ -353,10 +346,6 @@ nav {
 @media only screen and (max-width: 320px) {
   #intro-text h1 {
     font-size: 1.5rem;
-  }
-  #card-hand {
-    height: 35vh;
-    margin-bottom: -7vh;
   }
   #comic-intro-text h3 {
     font-size: 1.4rem;
