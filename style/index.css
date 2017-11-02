@@ -12,6 +12,132 @@ body {
   /* can be treated like a fallback */
 }
 
+@media only screen and (min-width: 360px) {
+  .flow-text-sm {
+    font-size: 0.8640000000000001rem;
+  }
+}
+
+@media only screen and (min-width: 390px) {
+  .flow-text-sm {
+    font-size: 0.9792rem;
+  }
+}
+
+@media only screen and (min-width: 420px) {
+  .flow-text-sm {
+    font-size: 0.9984rem;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  .flow-text-sm {
+    font-size: 1.0176rem;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .flow-text-sm {
+    font-size: 1.0368rem;
+  }
+}
+
+@media only screen and (min-width: 510px) {
+  .flow-text-sm {
+    font-size: 1.056rem;
+  }
+}
+
+@media only screen and (min-width: 540px) {
+  .flow-text-sm {
+    font-size: 1.0752000000000002rem;
+  }
+}
+
+@media only screen and (min-width: 570px) {
+  .flow-text-sm {
+    font-size: 1.0944rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .flow-text-sm {
+    font-size: 1.1136rem;
+  }
+}
+
+@media only screen and (min-width: 630px) {
+  .flow-text-sm {
+    font-size: 1.1328rem;
+  }
+}
+
+@media only screen and (min-width: 660px) {
+  .flow-text-sm {
+    font-size: 1.152rem;
+  }
+}
+
+@media only screen and (min-width: 690px) {
+  .flow-text-sm {
+    font-size: 1.1712rem;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .flow-text-sm {
+    font-size: 1.1904rem;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .flow-text-sm {
+    font-size: 1.2096rem;
+  }
+}
+
+@media only screen and (min-width: 780px) {
+  .flow-text-sm {
+    font-size: 1.2288000000000001rem;
+  }
+}
+
+@media only screen and (min-width: 810px) {
+  .flow-text-sm {
+    font-size: 1.248rem;
+  }
+}
+
+@media only screen and (min-width: 840px) {
+  .flow-text-sm {
+    font-size: 1.2672rem;
+  }
+}
+
+@media only screen and (min-width: 870px) {
+  .flow-text-sm {
+    font-size: 1.2864rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .flow-text-sm {
+    font-size: 1.3055999999999999rem;
+  }
+}
+
+@media only screen and (min-width: 930px) {
+  .flow-text-sm {
+    font-size: 1.3248rem;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .flow-text-sm {
+    font-size: 1.6;
+  }
+}
+
 .flex-center {
   justify-content: center;
 }
@@ -37,13 +163,33 @@ body {
 }
 
 .section-padding {
-  padding-top: 15vh;
-  padding-bottom: 15vh;
+  padding-top: 14vh;
+  padding-bottom: 14vh;
 }
 
 .row {
   padding-bottom: 20px;
   margin-bottom: 0px;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  margin: 5px;
+  background-color: white;
+  display: inline-block;
+  mask-size: cover;
+  -webkit-mask-size: cover;
+}
+
+.social-icon:hover {
+  /* hover mta-gold */
+  background-color: #ffbe3d;
+}
+
+.github-icon {
+  -webkit-mask-image: url("../img/github-logo.png");
+  mask-image: url("../img/github-logo.png");
 }
 
 nav {
@@ -60,7 +206,7 @@ nav {
 
 #card-hand {
   height: 100vh;
-  margin-bottom: -7vh;
+  margin-bottom: -14vh;
 }
 
 #intro-text h1 {
@@ -159,6 +305,11 @@ nav {
   padding-top: 19px !important;
 }
 
+.author-link {
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
 @media only screen and (min-width: 960px) {
   .flow-text {
     font-size: 2rem;
@@ -175,12 +326,15 @@ nav {
 }
 
 @media only screen and (max-width: 425px) {
+  .section-padding {
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+  }
   #intro-text h1 {
     font-size: 2rem;
   }
   #card-hand {
     height: 50vh;
-    margin-bottom: 0vh;
   }
   #comic-intro-text h3 {
     font-size: 1.7rem;
@@ -202,6 +356,7 @@ nav {
   }
   #card-hand {
     height: 35vh;
+    margin-bottom: -7vh;
   }
   #comic-intro-text h3 {
     font-size: 1.4rem;
