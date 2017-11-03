@@ -305,6 +305,7 @@ a:hover {
 #card-hand {
   height: 50%;
   width: 50vw;
+  margin-bottom: -3.3vh;
 }
 
 #intro-text h1 {
