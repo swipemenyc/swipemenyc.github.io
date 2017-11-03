@@ -267,6 +267,11 @@ a:hover {
   margin: 35px 0px 35px 35px;
 }
 
+.arrow-wrapper {
+  display: inline-grid;
+  justify-content: right;
+}
+
 @keyframes fade {
   from {
     opacity: .1;
@@ -288,24 +293,17 @@ a:hover {
   animation-delay: 3.8s;
 }
 
-.arrow-wrapper {
-  display: inline-grid;
-  justify-content: right;
-}
-
 .arrow {
   margin-top: 5px;
   width: 48px;
-  animation: fade;
-  animation-fill-mode: forwards;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
+  animation: fade 2s infinite forwards;
 }
 
 #card-hand {
   height: 50%;
   width: 50vw;
   margin-bottom: -3.3vh;
+  z-index: -1;
 }
 
 #intro-text h1 {
