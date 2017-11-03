@@ -267,9 +267,11 @@ a:hover {
   margin: 35px 0px 35px 35px;
 }
 
-.arrow-wrapper {
+#arrow-wrapper {
   display: inline-grid;
   justify-content: right;
+  padding-left: 2.5rem;
+  padding-right: 0rem;
 }
 
 @keyframes fade {
@@ -443,6 +445,13 @@ a:hover {
   .comic-text {
     height: 35vh;
   }
+  .quotation {
+    width: 48px;
+    height: 48px;
+  }
+  .quotation-open {
+    margin-left: -48px;
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -462,6 +471,13 @@ a:hover {
   .comic-text {
     height: 20vh;
   }
+  .quotation {
+    width: 32px;
+    height: 32px;
+  }
+  .quotation-open {
+    margin-left: -32px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -476,6 +492,13 @@ a:hover {
   .copyright {
     font-size: .9rem;
   }
+  .quotation {
+    width: 16px;
+    height: 16px;
+  }
+  .quotation-open {
+    margin-left: -12px;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -489,6 +512,6 @@ a:hover {
     font-size: 1.2rem;
   }
   .copyright {
-    font-size: .7rem;
+    font-size: .65rem;
   }
 }
