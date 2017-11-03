@@ -2,4 +2,4 @@ OG title
 OG Text
 Tweet text
 tweak mobile friendly
-add and animate arrows
+add and animate arrows (browser compat)
