@@ -302,8 +302,11 @@ a:hover {
 #card-hand {
   height: 50%;
   width: 50vw;
-  margin-bottom: -3.3vh;
   z-index: -1;
+}
+
+#intro-text {
+  padding-bottom: 0px;
 }
 
 #intro-text h1 {
@@ -445,9 +448,6 @@ a:hover {
 @media only screen and (max-width: 425px) {
   .arrow {
     width: 24px;
-  }
-  #card-hand {
-    margin-bottom: -3.5vh;
   }
   .section-padding {
     padding-top: 7vh;
