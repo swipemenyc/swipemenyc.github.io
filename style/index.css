@@ -514,6 +514,9 @@ a:hover {
   .copyright {
     font-size: .9rem;
   }
+  .legal-text-wrapper {
+    letter-spacing: 4px;
+  }
 }
 
 @media only screen and (max-width: 360px) {
