@@ -352,6 +352,11 @@ a:hover {
   letter-spacing: 5px;
 }
 
+.legal-text0 {
+  margin-bottom: 5vh;
+  font-weight: bold;
+}
+
 .legal-text1 {
   font-style: italic;
 }
@@ -481,6 +486,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 375px) {
+  .flow-text {
+    font-size: 0.9;
+  }
   .arrow {
     width: 20px;
   }
@@ -489,8 +497,9 @@ a:hover {
     height: 48px;
     margin: 17px 35px 35px 17px;
   }
-  .copyright {
-    font-size: .9rem;
+  .comic-image {
+    width: 80%;
+    height: 80%;
   }
   .quotation {
     width: 16px;
@@ -498,6 +507,15 @@ a:hover {
   }
   .quotation-open {
     margin-left: -12px;
+  }
+  .copyright {
+    font-size: .9rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .flow-text {
+    font-size: .9rem !important;
   }
 }
 
@@ -513,5 +531,8 @@ a:hover {
   }
   .copyright {
     font-size: .65rem;
+  }
+  .legal-text-wrapper {
+    letter-spacing: 3px;
   }
 }
