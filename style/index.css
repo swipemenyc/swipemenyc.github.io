@@ -501,6 +501,9 @@ a:hover {
     width: 80%;
     height: 80%;
   }
+  #comic-intro-text h3 {
+    font-size: 1.5rem;
+  }
   .quotation {
     width: 16px;
     height: 16px;
